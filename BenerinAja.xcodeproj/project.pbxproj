@@ -21,6 +21,26 @@
 		8D783A1D2DC37046003C3E94 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A1C2DC37046003C3E94 /* Colors.swift */; };
 		8D783A1F2DC3704F003C3E94 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A1E2DC3704F003C3E94 /* Images.swift */; };
 		8D783A222DC37064003C3E94 /* FAQData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A212DC37064003C3E94 /* FAQData.swift */; };
+		8D783A252DC373B3003C3E94 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A242DC373B3003C3E94 /* Customer.swift */; };
+		8D783A272DC37470003C3E94 /* Technician.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A262DC37470003C3E94 /* Technician.swift */; };
+		8D783A292DC3748F003C3E94 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A282DC3748F003C3E94 /* Transaction.swift */; };
+		8D783A2D2DC374B7003C3E94 /* TempTechnicianChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A2C2DC374B7003C3E94 /* TempTechnicianChat.swift */; };
+		8D783A2F2DC374CA003C3E94 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A2E2DC374CA003C3E94 /* Order.swift */; };
+		8D783A312DC374DE003C3E94 /* TechnicianRoomChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A302DC374DE003C3E94 /* TechnicianRoomChat.swift */; };
+		8D783A342DC3793D003C3E94 /* TempConsultationChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A332DC3793D003C3E94 /* TempConsultationChat.swift */; };
+		8D783A362DC37958003C3E94 /* ConsultationRoomChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A352DC37958003C3E94 /* ConsultationRoomChat.swift */; };
+		8D783A392DC39A5B003C3E94 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8D783A382DC39A5B003C3E94 /* FirebaseFirestore */; };
+		8D783A3B2DC39B8C003C3E94 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A3A2DC39B8B003C3E94 /* Feedback.swift */; };
+		8D783A3D2DC39D2C003C3E94 /* ServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A3C2DC39D2C003C3E94 /* ServiceType.swift */; };
+		8D783A402DC39F03003C3E94 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A3F2DC39F03003C3E94 /* User.swift */; };
+		8D783A422DC39F63003C3E94 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A412DC39F63003C3E94 /* Address.swift */; };
+		8D783A442DC3AFF0003C3E94 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A432DC3AFF0003C3E94 /* Service.swift */; };
+		8D783A4A2DC3BD05003C3E94 /* Order+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A492DC3BD05003C3E94 /* Order+Helpers.swift */; };
+		8D783A4C2DC3BD10003C3E94 /* Transaction+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A4B2DC3BD10003C3E94 /* Transaction+Helper.swift */; };
+		8D783A4E2DC3C2F7003C3E94 /* ElectronicProblems+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A4D2DC3C2F7003C3E94 /* ElectronicProblems+Helper.swift */; };
+		8D783A502DC3CCB2003C3E94 /* Voucher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A4F2DC3CCB2003C3E94 /* Voucher.swift */; };
+		8D783A522DC3D336003C3E94 /* Chat+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A512DC3D336003C3E94 /* Chat+Helper.swift */; };
+		8D783A552DC3DC3C003C3E94 /* OrderRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A542DC3DC3C003C3E94 /* OrderRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +54,25 @@
 		8D783A1C2DC37046003C3E94 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		8D783A1E2DC3704F003C3E94 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		8D783A212DC37064003C3E94 /* FAQData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQData.swift; sourceTree = "<group>"; };
+		8D783A242DC373B3003C3E94 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		8D783A262DC37470003C3E94 /* Technician.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Technician.swift; sourceTree = "<group>"; };
+		8D783A282DC3748F003C3E94 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Transaction.swift; path = ../../../../../../../../Users/calderaly/Documents/Transaction.swift; sourceTree = "<group>"; };
+		8D783A2C2DC374B7003C3E94 /* TempTechnicianChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempTechnicianChat.swift; sourceTree = "<group>"; };
+		8D783A2E2DC374CA003C3E94 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		8D783A302DC374DE003C3E94 /* TechnicianRoomChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicianRoomChat.swift; sourceTree = "<group>"; };
+		8D783A332DC3793D003C3E94 /* TempConsultationChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempConsultationChat.swift; sourceTree = "<group>"; };
+		8D783A352DC37958003C3E94 /* ConsultationRoomChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultationRoomChat.swift; sourceTree = "<group>"; };
+		8D783A3A2DC39B8B003C3E94 /* Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		8D783A3C2DC39D2C003C3E94 /* ServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceType.swift; sourceTree = "<group>"; };
+		8D783A3F2DC39F03003C3E94 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8D783A412DC39F63003C3E94 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		8D783A432DC3AFF0003C3E94 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8D783A492DC3BD05003C3E94 /* Order+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+Helpers.swift"; sourceTree = "<group>"; };
+		8D783A4B2DC3BD10003C3E94 /* Transaction+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction+Helper.swift"; sourceTree = "<group>"; };
+		8D783A4D2DC3C2F7003C3E94 /* ElectronicProblems+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ElectronicProblems+Helper.swift"; sourceTree = "<group>"; };
+		8D783A4F2DC3CCB2003C3E94 /* Voucher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voucher.swift; sourceTree = "<group>"; };
+		8D783A512DC3D336003C3E94 /* Chat+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chat+Helper.swift"; sourceTree = "<group>"; };
+		8D783A542DC3DC3C003C3E94 /* OrderRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +85,7 @@
 				8D03E4082DC3691100F9ECBC /* FirebaseAppDistribution-Beta in Frameworks */,
 				8D03E4042DC3691100F9ECBC /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				8D03E4022DC3691100F9ECBC /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				8D783A392DC39A5B003C3E94 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +97,7 @@
 			children = (
 				8D03E3EF2DC3679B00F9ECBC /* BenerinAja */,
 				8D03E3EE2DC3679A00F9ECBC /* Products */,
+				8D783A372DC39A5B003C3E94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +112,8 @@
 		8D03E3EF2DC3679B00F9ECBC /* BenerinAja */ = {
 			isa = PBXGroup;
 			children = (
+				8D783A482DC3BCF3003C3E94 /* Helpers */,
+				8D783A232DC373A3003C3E94 /* Models */,
 				8D783A202DC37058003C3E94 /* Resources */,
 				8D783A152DC37001003C3E94 /* Pages */,
 				8D783A142DC36FF7003C3E94 /* Extensions */,
@@ -164,6 +207,86 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		8D783A232DC373A3003C3E94 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D783A532DC3DC2D003C3E94 /* Order */,
+				8D783A462DC3B731003C3E94 /* Service */,
+				8D783A3E2DC39EF5003C3E94 /* Users */,
+				8D783A322DC37921003C3E94 /* Chat */,
+				8D783A282DC3748F003C3E94 /* Transaction.swift */,
+				8D783A3A2DC39B8B003C3E94 /* Feedback.swift */,
+				8D783A4F2DC3CCB2003C3E94 /* Voucher.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8D783A2A2DC37498003C3E94 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				8D783A2C2DC374B7003C3E94 /* TempTechnicianChat.swift */,
+				8D783A332DC3793D003C3E94 /* TempConsultationChat.swift */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		8D783A322DC37921003C3E94 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				8D783A302DC374DE003C3E94 /* TechnicianRoomChat.swift */,
+				8D783A352DC37958003C3E94 /* ConsultationRoomChat.swift */,
+				8D783A2A2DC37498003C3E94 /* Room */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		8D783A372DC39A5B003C3E94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D783A3E2DC39EF5003C3E94 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				8D783A242DC373B3003C3E94 /* Customer.swift */,
+				8D783A262DC37470003C3E94 /* Technician.swift */,
+				8D783A3F2DC39F03003C3E94 /* User.swift */,
+				8D783A412DC39F63003C3E94 /* Address.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		8D783A462DC3B731003C3E94 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8D783A3C2DC39D2C003C3E94 /* ServiceType.swift */,
+				8D783A432DC3AFF0003C3E94 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8D783A482DC3BCF3003C3E94 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8D783A492DC3BD05003C3E94 /* Order+Helpers.swift */,
+				8D783A4B2DC3BD10003C3E94 /* Transaction+Helper.swift */,
+				8D783A4D2DC3C2F7003C3E94 /* ElectronicProblems+Helper.swift */,
+				8D783A512DC3D336003C3E94 /* Chat+Helper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8D783A532DC3DC2D003C3E94 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				8D783A2E2DC374CA003C3E94 /* Order.swift */,
+				8D783A542DC3DC3C003C3E94 /* OrderRequest.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -186,6 +309,7 @@
 				8D03E4032DC3691100F9ECBC /* FirebaseAnalyticsWithoutAdIdSupport */,
 				8D03E4052DC3691100F9ECBC /* FirebaseAppCheck */,
 				8D03E4072DC3691100F9ECBC /* FirebaseAppDistribution-Beta */,
+				8D783A382DC39A5B003C3E94 /* FirebaseFirestore */,
 			);
 			productName = BenerinAja;
 			productReference = 8D03E3ED2DC3679A00F9ECBC /* BenerinAja.app */;
@@ -245,12 +369,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D783A422DC39F63003C3E94 /* Address.swift in Sources */,
+				8D783A2D2DC374B7003C3E94 /* TempTechnicianChat.swift in Sources */,
+				8D783A312DC374DE003C3E94 /* TechnicianRoomChat.swift in Sources */,
+				8D783A3B2DC39B8C003C3E94 /* Feedback.swift in Sources */,
+				8D783A4A2DC3BD05003C3E94 /* Order+Helpers.swift in Sources */,
+				8D783A362DC37958003C3E94 /* ConsultationRoomChat.swift in Sources */,
 				8D783A1A2DC37028003C3E94 /* HomeScreenView.swift in Sources */,
+				8D783A522DC3D336003C3E94 /* Chat+Helper.swift in Sources */,
+				8D783A502DC3CCB2003C3E94 /* Voucher.swift in Sources */,
+				8D783A342DC3793D003C3E94 /* TempConsultationChat.swift in Sources */,
+				8D783A272DC37470003C3E94 /* Technician.swift in Sources */,
+				8D783A4E2DC3C2F7003C3E94 /* ElectronicProblems+Helper.swift in Sources */,
+				8D783A552DC3DC3C003C3E94 /* OrderRequest.swift in Sources */,
+				8D783A402DC39F03003C3E94 /* User.swift in Sources */,
+				8D783A3D2DC39D2C003C3E94 /* ServiceType.swift in Sources */,
+				8D783A2F2DC374CA003C3E94 /* Order.swift in Sources */,
 				8D783A1D2DC37046003C3E94 /* Colors.swift in Sources */,
 				8D783A1F2DC3704F003C3E94 /* Images.swift in Sources */,
+				8D783A442DC3AFF0003C3E94 /* Service.swift in Sources */,
 				8D03E3F32DC3679B00F9ECBC /* ContentView.swift in Sources */,
 				8D783A222DC37064003C3E94 /* FAQData.swift in Sources */,
 				8D03E3F12DC3679B00F9ECBC /* BenerinAjaApp.swift in Sources */,
+				8D783A252DC373B3003C3E94 /* Customer.swift in Sources */,
+				8D783A292DC3748F003C3E94 /* Transaction.swift in Sources */,
+				8D783A4C2DC3BD10003C3E94 /* Transaction+Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +648,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8D03E3FE2DC3690400F9ECBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = "FirebaseAppDistribution-Beta";
+		};
+		8D783A382DC39A5B003C3E94 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D03E3FE2DC3690400F9ECBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
