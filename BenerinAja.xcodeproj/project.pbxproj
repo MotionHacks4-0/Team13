@@ -41,6 +41,13 @@
 		8D783A502DC3CCB2003C3E94 /* Voucher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A4F2DC3CCB2003C3E94 /* Voucher.swift */; };
 		8D783A522DC3D336003C3E94 /* Chat+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A512DC3D336003C3E94 /* Chat+Helper.swift */; };
 		8D783A552DC3DC3C003C3E94 /* OrderRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A542DC3DC3C003C3E94 /* OrderRequest.swift */; };
+		8D783A5B2DC3E727003C3E94 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A582DC3E727003C3E94 /* CardView.swift */; };
+		8D783A5C2DC3E727003C3E94 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A592DC3E727003C3E94 /* CardViewModel.swift */; };
+		8D783A5D2DC3E727003C3E94 /* CardHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A5A2DC3E727003C3E94 /* CardHistoryView.swift */; };
+		8D783A5F2DC3E91C003C3E94 /* SFProDisplayFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A5E2DC3E91C003C3E94 /* SFProDisplayFontModifier.swift */; };
+		8D783A612DC3E931003C3E94 /* CornerRadiusModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A602DC3E931003C3E94 /* CornerRadiusModifier.swift */; };
+		8D783A642DC3EA5B003C3E94 /* CardHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A632DC3EA5B003C3E94 /* CardHistoryViewModel.swift */; };
+		8D783A662DC3EE64003C3E94 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A652DC3EE64003C3E94 /* MenuBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +80,13 @@
 		8D783A4F2DC3CCB2003C3E94 /* Voucher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voucher.swift; sourceTree = "<group>"; };
 		8D783A512DC3D336003C3E94 /* Chat+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chat+Helper.swift"; sourceTree = "<group>"; };
 		8D783A542DC3DC3C003C3E94 /* OrderRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRequest.swift; sourceTree = "<group>"; };
+		8D783A582DC3E727003C3E94 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8D783A592DC3E727003C3E94 /* CardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		8D783A5A2DC3E727003C3E94 /* CardHistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardHistoryView.swift; sourceTree = "<group>"; };
+		8D783A5E2DC3E91C003C3E94 /* SFProDisplayFontModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFProDisplayFontModifier.swift; sourceTree = "<group>"; };
+		8D783A602DC3E931003C3E94 /* CornerRadiusModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusModifier.swift; sourceTree = "<group>"; };
+		8D783A632DC3EA5B003C3E94 /* CardHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHistoryViewModel.swift; sourceTree = "<group>"; };
+		8D783A652DC3EE64003C3E94 /* MenuBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +153,8 @@
 		8D783A122DC36FC4003C3E94 /* Modifiers */ = {
 			isa = PBXGroup;
 			children = (
+				8D783A5E2DC3E91C003C3E94 /* SFProDisplayFontModifier.swift */,
+				8D783A602DC3E931003C3E94 /* CornerRadiusModifier.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -195,6 +211,8 @@
 		8D783A1B2DC37038003C3E94 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				8D783A572DC3E705003C3E94 /* Menu */,
+				8D783A562DC3E6F9003C3E94 /* Cards */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -287,6 +305,33 @@
 			path = Order;
 			sourceTree = "<group>";
 		};
+		8D783A562DC3E6F9003C3E94 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				8D783A622DC3EA42003C3E94 /* ViewModel */,
+				8D783A5A2DC3E727003C3E94 /* CardHistoryView.swift */,
+				8D783A582DC3E727003C3E94 /* CardView.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		8D783A572DC3E705003C3E94 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				8D783A652DC3EE64003C3E94 /* MenuBarView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		8D783A622DC3EA42003C3E94 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D783A592DC3E727003C3E94 /* CardViewModel.swift */,
+				8D783A632DC3EA5B003C3E94 /* CardHistoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -369,7 +414,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D783A5F2DC3E91C003C3E94 /* SFProDisplayFontModifier.swift in Sources */,
 				8D783A422DC39F63003C3E94 /* Address.swift in Sources */,
+				8D783A642DC3EA5B003C3E94 /* CardHistoryViewModel.swift in Sources */,
 				8D783A2D2DC374B7003C3E94 /* TempTechnicianChat.swift in Sources */,
 				8D783A312DC374DE003C3E94 /* TechnicianRoomChat.swift in Sources */,
 				8D783A3B2DC39B8C003C3E94 /* Feedback.swift in Sources */,
@@ -377,11 +424,14 @@
 				8D783A362DC37958003C3E94 /* ConsultationRoomChat.swift in Sources */,
 				8D783A1A2DC37028003C3E94 /* HomeScreenView.swift in Sources */,
 				8D783A522DC3D336003C3E94 /* Chat+Helper.swift in Sources */,
+				8D783A5C2DC3E727003C3E94 /* CardViewModel.swift in Sources */,
 				8D783A502DC3CCB2003C3E94 /* Voucher.swift in Sources */,
 				8D783A342DC3793D003C3E94 /* TempConsultationChat.swift in Sources */,
 				8D783A272DC37470003C3E94 /* Technician.swift in Sources */,
+				8D783A612DC3E931003C3E94 /* CornerRadiusModifier.swift in Sources */,
 				8D783A4E2DC3C2F7003C3E94 /* ElectronicProblems+Helper.swift in Sources */,
 				8D783A552DC3DC3C003C3E94 /* OrderRequest.swift in Sources */,
+				8D783A662DC3EE64003C3E94 /* MenuBarView.swift in Sources */,
 				8D783A402DC39F03003C3E94 /* User.swift in Sources */,
 				8D783A3D2DC39D2C003C3E94 /* ServiceType.swift in Sources */,
 				8D783A2F2DC374CA003C3E94 /* Order.swift in Sources */,
@@ -389,7 +439,9 @@
 				8D783A1F2DC3704F003C3E94 /* Images.swift in Sources */,
 				8D783A442DC3AFF0003C3E94 /* Service.swift in Sources */,
 				8D03E3F32DC3679B00F9ECBC /* ContentView.swift in Sources */,
+				8D783A5B2DC3E727003C3E94 /* CardView.swift in Sources */,
 				8D783A222DC37064003C3E94 /* FAQData.swift in Sources */,
+				8D783A5D2DC3E727003C3E94 /* CardHistoryView.swift in Sources */,
 				8D03E3F12DC3679B00F9ECBC /* BenerinAjaApp.swift in Sources */,
 				8D783A252DC373B3003C3E94 /* Customer.swift in Sources */,
 				8D783A292DC3748F003C3E94 /* Transaction.swift in Sources */,
