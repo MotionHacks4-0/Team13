@@ -10,8 +10,8 @@ import FirebaseFirestore
 
 struct Feedback: Codable, Identifiable {
     @DocumentID var id: String?
-    var comment: String?
-    var rating: Int?
+    var comment: String
+    var rating: Int
     var count_usefull: Int?
     
     var customer_id: String?

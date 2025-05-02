@@ -10,11 +10,11 @@ import FirebaseFirestore
 
 struct Voucher: Codable, Identifiable {
     @DocumentID var id: String?
-    var name: String?
-    var description: String?
+    var name: String
+    var description: String
     var details: String?
-    var discount_percent: Int?
-    var expired_date: Date?
+    var discount_percent: Int
+    var expired_date: Date
     
     var customer_id: String?
     

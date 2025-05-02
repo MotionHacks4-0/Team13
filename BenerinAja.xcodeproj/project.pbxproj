@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C2C0780AA0155FE66D21B9A /* Pods_BenerinAja.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD7A01C0B7633432A456A79 /* Pods_BenerinAja.framework */; };
 		8D03E3F12DC3679B00F9ECBC /* BenerinAjaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D03E3F02DC3679B00F9ECBC /* BenerinAjaApp.swift */; };
 		8D03E3F32DC3679B00F9ECBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D03E3F22DC3679B00F9ECBC /* ContentView.swift */; };
 		8D03E3F52DC367A200F9ECBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D03E3F42DC367A200F9ECBC /* Assets.xcassets */; };
@@ -16,11 +17,9 @@
 		8D03E4042DC3691100F9ECBC /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 8D03E4032DC3691100F9ECBC /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		8D03E4062DC3691100F9ECBC /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 8D03E4052DC3691100F9ECBC /* FirebaseAppCheck */; };
 		8D03E4082DC3691100F9ECBC /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 8D03E4072DC3691100F9ECBC /* FirebaseAppDistribution-Beta */; };
-		8D783A012DC36F45003C3E94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D783A002DC36F45003C3E94 /* GoogleService-Info.plist */; };
 		8D783A1A2DC37028003C3E94 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A192DC37028003C3E94 /* HomeScreenView.swift */; };
 		8D783A1D2DC37046003C3E94 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A1C2DC37046003C3E94 /* Colors.swift */; };
 		8D783A1F2DC3704F003C3E94 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A1E2DC3704F003C3E94 /* Images.swift */; };
-		8D783A222DC37064003C3E94 /* FAQData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A212DC37064003C3E94 /* FAQData.swift */; };
 		8D783A252DC373B3003C3E94 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A242DC373B3003C3E94 /* Customer.swift */; };
 		8D783A272DC37470003C3E94 /* Technician.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A262DC37470003C3E94 /* Technician.swift */; };
 		8D783A292DC3748F003C3E94 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A282DC3748F003C3E94 /* Transaction.swift */; };
@@ -48,6 +47,12 @@
 		8D783A612DC3E931003C3E94 /* CornerRadiusModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A602DC3E931003C3E94 /* CornerRadiusModifier.swift */; };
 		8D783A642DC3EA5B003C3E94 /* CardHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A632DC3EA5B003C3E94 /* CardHistoryViewModel.swift */; };
 		8D783A662DC3EE64003C3E94 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D783A652DC3EE64003C3E94 /* MenuBarView.swift */; };
+		8D90B6B62DC40BDB00D7E88E /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D90B6B52DC40BDB00D7E88E /* String+Validation.swift */; };
+		8D90B6BC2DC4161D00D7E88E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D90B6BB2DC4161D00D7E88E /* GoogleService-Info.plist */; };
+		8DAADFFD2DC45B7B00554C0C /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAADFFC2DC45B7B00554C0C /* UserViewModel.swift */; };
+		8DAAE0012DC45C4E00554C0C /* UserViewModel+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAE0002DC45C4E00554C0C /* UserViewModel+Helper.swift */; };
+		8DDF7C392DC4177900113C72 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8DDF7C382DC4177900113C72 /* FirebaseAuth */; };
+		8DDF7C3D2DC4541C00113C72 /* SignupScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF7C3C2DC4541C00113C72 /* SignupScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,11 +61,9 @@
 		8D03E3F22DC3679B00F9ECBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8D03E3F42DC367A200F9ECBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D03E3F72DC367A200F9ECBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8D783A002DC36F45003C3E94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8D783A192DC37028003C3E94 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		8D783A1C2DC37046003C3E94 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		8D783A1E2DC3704F003C3E94 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
-		8D783A212DC37064003C3E94 /* FAQData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQData.swift; sourceTree = "<group>"; };
 		8D783A242DC373B3003C3E94 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		8D783A262DC37470003C3E94 /* Technician.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Technician.swift; sourceTree = "<group>"; };
 		8D783A282DC3748F003C3E94 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Transaction.swift; path = ../../../../../../../../Users/calderaly/Documents/Transaction.swift; sourceTree = "<group>"; };
@@ -87,6 +90,15 @@
 		8D783A602DC3E931003C3E94 /* CornerRadiusModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusModifier.swift; sourceTree = "<group>"; };
 		8D783A632DC3EA5B003C3E94 /* CardHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHistoryViewModel.swift; sourceTree = "<group>"; };
 		8D783A652DC3EE64003C3E94 /* MenuBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		8D90B6B52DC40BDB00D7E88E /* String+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
+		8D90B6BB2DC4161D00D7E88E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Users/calderaly/Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8DAADFFC2DC45B7B00554C0C /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		8DAAE0002DC45C4E00554C0C /* UserViewModel+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserViewModel+Helper.swift"; sourceTree = "<group>"; };
+		8DDF7C3C2DC4541C00113C72 /* SignupScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupScreenView.swift; sourceTree = "<group>"; };
+		8DF74F162DC4721600803F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BDD7A01C0B7633432A456A79 /* Pods_BenerinAja.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BenerinAja.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39C3AC415BFA82C829C786D /* Pods-BenerinAja.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenerinAja.debug.xcconfig"; path = "Target Support Files/Pods-BenerinAja/Pods-BenerinAja.debug.xcconfig"; sourceTree = "<group>"; };
+		E19412E04E5AF70BCD675A9B /* Pods-BenerinAja.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BenerinAja.release.xcconfig"; path = "Target Support Files/Pods-BenerinAja/Pods-BenerinAja.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +111,9 @@
 				8D03E4082DC3691100F9ECBC /* FirebaseAppDistribution-Beta in Frameworks */,
 				8D03E4042DC3691100F9ECBC /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				8D03E4022DC3691100F9ECBC /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				8DDF7C392DC4177900113C72 /* FirebaseAuth in Frameworks */,
 				8D783A392DC39A5B003C3E94 /* FirebaseFirestore in Frameworks */,
+				1C2C0780AA0155FE66D21B9A /* Pods_BenerinAja.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +126,7 @@
 				8D03E3EF2DC3679B00F9ECBC /* BenerinAja */,
 				8D03E3EE2DC3679A00F9ECBC /* Products */,
 				8D783A372DC39A5B003C3E94 /* Frameworks */,
+				A4B3EE0240E63BBC6394C44F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,16 +141,15 @@
 		8D03E3EF2DC3679B00F9ECBC /* BenerinAja */ = {
 			isa = PBXGroup;
 			children = (
-				8D783A482DC3BCF3003C3E94 /* Helpers */,
+				8DF74F162DC4721600803F59 /* Info.plist */,
+				8DAAE0022DC461E700554C0C /* Shared */,
+				8DAADFFB2DC45B2800554C0C /* ViewModel */,
 				8D783A232DC373A3003C3E94 /* Models */,
-				8D783A202DC37058003C3E94 /* Resources */,
 				8D783A152DC37001003C3E94 /* Pages */,
-				8D783A142DC36FF7003C3E94 /* Extensions */,
 				8D783A132DC36FEE003C3E94 /* Common */,
-				8D783A122DC36FC4003C3E94 /* Modifiers */,
-				8D783A002DC36F45003C3E94 /* GoogleService-Info.plist */,
 				8D03E3F02DC3679B00F9ECBC /* BenerinAjaApp.swift */,
 				8D03E3F22DC3679B00F9ECBC /* ContentView.swift */,
+				8D90B6BB2DC4161D00D7E88E /* GoogleService-Info.plist */,
 				8D03E3F42DC367A200F9ECBC /* Assets.xcassets */,
 				8D03E3F62DC367A200F9ECBC /* Preview Content */,
 			);
@@ -169,69 +183,39 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
-		8D783A142DC36FF7003C3E94 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 		8D783A152DC37001003C3E94 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
-				8D783A162DC37006003C3E94 /* Onboarding */,
+				8D90B6B32DC407C200D7E88E /* Onboarding */,
 				8D783A192DC37028003C3E94 /* HomeScreenView.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
 		};
-		8D783A162DC37006003C3E94 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				8D783A182DC37013003C3E94 /* ViewModel */,
-				8D783A172DC3700C003C3E94 /* View */,
-			);
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		8D783A172DC3700C003C3E94 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		8D783A182DC37013003C3E94 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		8D783A1B2DC37038003C3E94 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				8D783A572DC3E705003C3E94 /* Menu */,
+				8D783A652DC3EE64003C3E94 /* MenuBarView.swift */,
 				8D783A562DC3E6F9003C3E94 /* Cards */,
 			);
 			path = Components;
 			sourceTree = "<group>";
 		};
-		8D783A202DC37058003C3E94 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				8D783A212DC37064003C3E94 /* FAQData.swift */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		8D783A232DC373A3003C3E94 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				8D783A532DC3DC2D003C3E94 /* Order */,
-				8D783A462DC3B731003C3E94 /* Service */,
-				8D783A3E2DC39EF5003C3E94 /* Users */,
-				8D783A322DC37921003C3E94 /* Chat */,
+				8D783A302DC374DE003C3E94 /* TechnicianRoomChat.swift */,
+				8D783A352DC37958003C3E94 /* ConsultationRoomChat.swift */,
+				8D783A2C2DC374B7003C3E94 /* TempTechnicianChat.swift */,
+				8D783A332DC3793D003C3E94 /* TempConsultationChat.swift */,
+				8D783A242DC373B3003C3E94 /* Customer.swift */,
+				8D783A262DC37470003C3E94 /* Technician.swift */,
+				8D783A3F2DC39F03003C3E94 /* User.swift */,
+				8D783A412DC39F63003C3E94 /* Address.swift */,
+				8D783A3C2DC39D2C003C3E94 /* ServiceType.swift */,
+				8D783A432DC3AFF0003C3E94 /* Service.swift */,
+				8D783A2E2DC374CA003C3E94 /* Order.swift */,
+				8D783A542DC3DC3C003C3E94 /* OrderRequest.swift */,
 				8D783A282DC3748F003C3E94 /* Transaction.swift */,
 				8D783A3A2DC39B8B003C3E94 /* Feedback.swift */,
 				8D783A4F2DC3CCB2003C3E94 /* Voucher.swift */,
@@ -239,50 +223,12 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		8D783A2A2DC37498003C3E94 /* Room */ = {
-			isa = PBXGroup;
-			children = (
-				8D783A2C2DC374B7003C3E94 /* TempTechnicianChat.swift */,
-				8D783A332DC3793D003C3E94 /* TempConsultationChat.swift */,
-			);
-			path = Room;
-			sourceTree = "<group>";
-		};
-		8D783A322DC37921003C3E94 /* Chat */ = {
-			isa = PBXGroup;
-			children = (
-				8D783A302DC374DE003C3E94 /* TechnicianRoomChat.swift */,
-				8D783A352DC37958003C3E94 /* ConsultationRoomChat.swift */,
-				8D783A2A2DC37498003C3E94 /* Room */,
-			);
-			path = Chat;
-			sourceTree = "<group>";
-		};
 		8D783A372DC39A5B003C3E94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BDD7A01C0B7633432A456A79 /* Pods_BenerinAja.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8D783A3E2DC39EF5003C3E94 /* Users */ = {
-			isa = PBXGroup;
-			children = (
-				8D783A242DC373B3003C3E94 /* Customer.swift */,
-				8D783A262DC37470003C3E94 /* Technician.swift */,
-				8D783A3F2DC39F03003C3E94 /* User.swift */,
-				8D783A412DC39F63003C3E94 /* Address.swift */,
-			);
-			path = Users;
-			sourceTree = "<group>";
-		};
-		8D783A462DC3B731003C3E94 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				8D783A3C2DC39D2C003C3E94 /* ServiceType.swift */,
-				8D783A432DC3AFF0003C3E94 /* Service.swift */,
-			);
-			path = Service;
 			sourceTree = "<group>";
 		};
 		8D783A482DC3BCF3003C3E94 /* Helpers */ = {
@@ -292,17 +238,9 @@
 				8D783A4B2DC3BD10003C3E94 /* Transaction+Helper.swift */,
 				8D783A4D2DC3C2F7003C3E94 /* ElectronicProblems+Helper.swift */,
 				8D783A512DC3D336003C3E94 /* Chat+Helper.swift */,
+				8DAAE0002DC45C4E00554C0C /* UserViewModel+Helper.swift */,
 			);
 			path = Helpers;
-			sourceTree = "<group>";
-		};
-		8D783A532DC3DC2D003C3E94 /* Order */ = {
-			isa = PBXGroup;
-			children = (
-				8D783A2E2DC374CA003C3E94 /* Order.swift */,
-				8D783A542DC3DC3C003C3E94 /* OrderRequest.swift */,
-			);
-			path = Order;
 			sourceTree = "<group>";
 		};
 		8D783A562DC3E6F9003C3E94 /* Cards */ = {
@@ -315,14 +253,6 @@
 			path = Cards;
 			sourceTree = "<group>";
 		};
-		8D783A572DC3E705003C3E94 /* Menu */ = {
-			isa = PBXGroup;
-			children = (
-				8D783A652DC3EE64003C3E94 /* MenuBarView.swift */,
-			);
-			path = Menu;
-			sourceTree = "<group>";
-		};
 		8D783A622DC3EA42003C3E94 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,6 +262,49 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		8D90B6B32DC407C200D7E88E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8DDF7C3C2DC4541C00113C72 /* SignupScreenView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		8D90B6B42DC40BCA00D7E88E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D90B6B52DC40BDB00D7E88E /* String+Validation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8DAADFFB2DC45B2800554C0C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8DAADFFC2DC45B7B00554C0C /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8DAAE0022DC461E700554C0C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8D783A122DC36FC4003C3E94 /* Modifiers */,
+				8D783A482DC3BCF3003C3E94 /* Helpers */,
+				8D90B6B42DC40BCA00D7E88E /* Extensions */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A4B3EE0240E63BBC6394C44F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C39C3AC415BFA82C829C786D /* Pods-BenerinAja.debug.xcconfig */,
+				E19412E04E5AF70BCD675A9B /* Pods-BenerinAja.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -339,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D03E3FB2DC367A200F9ECBC /* Build configuration list for PBXNativeTarget "BenerinAja" */;
 			buildPhases = (
+				FA94F3D91E2F94F7903D92B1 /* [CP] Check Pods Manifest.lock */,
 				8D03E3E92DC3679A00F9ECBC /* Sources */,
 				8D03E3EA2DC3679A00F9ECBC /* Frameworks */,
 				8D03E3EB2DC3679A00F9ECBC /* Resources */,
+				5BD455C5D9C0212327DA0075 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -355,6 +330,7 @@
 				8D03E4052DC3691100F9ECBC /* FirebaseAppCheck */,
 				8D03E4072DC3691100F9ECBC /* FirebaseAppDistribution-Beta */,
 				8D783A382DC39A5B003C3E94 /* FirebaseFirestore */,
+				8DDF7C382DC4177900113C72 /* FirebaseAuth */,
 			);
 			productName = BenerinAja;
 			productReference = 8D03E3ED2DC3679A00F9ECBC /* BenerinAja.app */;
@@ -403,11 +379,53 @@
 			files = (
 				8D03E3F82DC367A200F9ECBC /* Preview Assets.xcassets in Resources */,
 				8D03E3F52DC367A200F9ECBC /* Assets.xcassets in Resources */,
-				8D783A012DC36F45003C3E94 /* GoogleService-Info.plist in Resources */,
+				8D90B6BC2DC4161D00D7E88E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BD455C5D9C0212327DA0075 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BenerinAja/Pods-BenerinAja-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BenerinAja/Pods-BenerinAja-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BenerinAja/Pods-BenerinAja-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA94F3D91E2F94F7903D92B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BenerinAja-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D03E3E92DC3679A00F9ECBC /* Sources */ = {
@@ -418,11 +436,13 @@
 				8D783A422DC39F63003C3E94 /* Address.swift in Sources */,
 				8D783A642DC3EA5B003C3E94 /* CardHistoryViewModel.swift in Sources */,
 				8D783A2D2DC374B7003C3E94 /* TempTechnicianChat.swift in Sources */,
+				8D90B6B62DC40BDB00D7E88E /* String+Validation.swift in Sources */,
 				8D783A312DC374DE003C3E94 /* TechnicianRoomChat.swift in Sources */,
 				8D783A3B2DC39B8C003C3E94 /* Feedback.swift in Sources */,
 				8D783A4A2DC3BD05003C3E94 /* Order+Helpers.swift in Sources */,
 				8D783A362DC37958003C3E94 /* ConsultationRoomChat.swift in Sources */,
 				8D783A1A2DC37028003C3E94 /* HomeScreenView.swift in Sources */,
+				8DAAE0012DC45C4E00554C0C /* UserViewModel+Helper.swift in Sources */,
 				8D783A522DC3D336003C3E94 /* Chat+Helper.swift in Sources */,
 				8D783A5C2DC3E727003C3E94 /* CardViewModel.swift in Sources */,
 				8D783A502DC3CCB2003C3E94 /* Voucher.swift in Sources */,
@@ -437,13 +457,14 @@
 				8D783A2F2DC374CA003C3E94 /* Order.swift in Sources */,
 				8D783A1D2DC37046003C3E94 /* Colors.swift in Sources */,
 				8D783A1F2DC3704F003C3E94 /* Images.swift in Sources */,
+				8DDF7C3D2DC4541C00113C72 /* SignupScreenView.swift in Sources */,
 				8D783A442DC3AFF0003C3E94 /* Service.swift in Sources */,
 				8D03E3F32DC3679B00F9ECBC /* ContentView.swift in Sources */,
 				8D783A5B2DC3E727003C3E94 /* CardView.swift in Sources */,
-				8D783A222DC37064003C3E94 /* FAQData.swift in Sources */,
 				8D783A5D2DC3E727003C3E94 /* CardHistoryView.swift in Sources */,
 				8D03E3F12DC3679B00F9ECBC /* BenerinAjaApp.swift in Sources */,
 				8D783A252DC373B3003C3E94 /* Customer.swift in Sources */,
+				8DAADFFD2DC45B7B00554C0C /* UserViewModel.swift in Sources */,
 				8D783A292DC3748F003C3E94 /* Transaction.swift in Sources */,
 				8D783A4C2DC3BD10003C3E94 /* Transaction+Helper.swift in Sources */,
 			);
@@ -573,6 +594,7 @@
 		};
 		8D03E3FC2DC367A200F9ECBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39C3AC415BFA82C829C786D /* Pods-BenerinAja.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -582,6 +604,7 @@
 				DEVELOPMENT_TEAM = MD4799W7K8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BenerinAja/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Benerin Aja";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -595,6 +618,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				"OTHER_SWIFT_FLAGS[sdk=iphoneos*]" = "\"-enable-experimental-feature AccessLevelOnImport\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.team13.BenerinAja;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -608,6 +632,7 @@
 		};
 		8D03E3FD2DC367A200F9ECBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E19412E04E5AF70BCD675A9B /* Pods-BenerinAja.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -617,6 +642,7 @@
 				DEVELOPMENT_TEAM = MD4799W7K8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BenerinAja/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Benerin Aja";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -669,8 +695,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 11.12.0;
+				kind = exactVersion;
+				version = 11.5.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -705,6 +731,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8D03E3FE2DC3690400F9ECBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		8DDF7C382DC4177900113C72 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D03E3FE2DC3690400F9ECBC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
