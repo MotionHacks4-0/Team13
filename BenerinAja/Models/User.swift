@@ -16,7 +16,7 @@ struct User: Codable, Identifiable {
     var email: String
     var password: String
     var phone_number: String?
-    var born_date: Date?
+    var born_date: String?
     var profile_img: String?
     
     @ServerTimestamp var created_at: Timestamp?

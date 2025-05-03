@@ -7,12 +7,10 @@
 
 import SwiftUI
 
-struct HomeScreenView: View {
+struct HomeView: View {
+    @StateObject var router: AppRouter = .init()
+    
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
-}
-
-#Preview {
-    HomeScreenView()
 }

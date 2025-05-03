@@ -9,10 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HomeScreenView()
+        if AppState.shared.isAuthenticated {
+            HomeView()
+        }else {
+            OnboardingView()
+        }
     }
 }
 
-#Preview {
-    ContentView()
-}
